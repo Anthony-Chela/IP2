@@ -5247,10 +5247,13 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
+  background-image: url("KwameNkrumahMausoleum.jpg");
   padding: 0.3rem 0.3rem;
   margin-bottom: 0.3rem;
-  background-color: #020202;
+  background-color: #18ffe0;
   border-radius: 0.3rem;
+  width:auto;
+  line-height: 200%;
 }
 
 @media (min-width: 576px) {
