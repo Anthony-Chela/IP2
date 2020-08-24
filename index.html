@@ -17,8 +17,14 @@
         </select> 
       <P>Now some info on your date of birth</P>
       <form>
-        <label for="quantity">Year of birth (between 1930 and 2020):</label>
-        <input type="number" id="quantity" name="quantity" min="1930" max="2019">
+        <label for="birthYear">Year of birth (between 1930 and 2020):</label>
+        <input type="number" id="birthYear" name="birthYear" min="1930" max="2019">
+
+        <label for="birthMonth">Month of birth (between 1 and 12):</label>
+        <input type="number" id="birthMonth" name="birthMonth" min="1" max="12">
+
+        <label for="birthDate">Date of birth (between 1 and 31):</label>
+        <input type="number" id="birthDate" name="birthDate" min="1" max="31">
       </form> 
       <script src ="scripts.js"></script>  
     </body>
