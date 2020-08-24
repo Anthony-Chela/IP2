@@ -21,7 +21,6 @@
             <option value="female">female</option>
           </select> 
       <P>Now some info on your date of birth</P>
-        <form action="scripts.js">
         <form action="#" method="post" name="form_name" id="form_id" class="form_class">
           <label for="birthYear">Year of birth (between 1930 and 2020):</label>
           <input type="number" id="birthYear" name="birthYear" min="1930" max="2019">
@@ -31,11 +30,12 @@
 
           <label for="birthDate">Date of birth:</label>
           <input type="number" id="birthDate" name="birthDate">
-          <input type="submit" value="submit" size="3"> 
+          <input type="submit" value="submit" size="3" onsubmit="akan()"> 
+          <input type="reset" value="reset" size="3" onreset="akan()">
         </form> 
-      <script src ="scripts.js"></script>
       </div>
       </div>
       </div>
+    <script src ="scripts.js"></script>
     </body>
 </html>

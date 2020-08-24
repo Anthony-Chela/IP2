@@ -1,7 +1,4 @@
-$(document).ready(function(){
-  $("#yourAkanName").mask("dateofBirth");
-});
-
+function akan(){
   var birthDate = document.getElementById("birthDate").value;
   var birthYear = document.getElementById("birthYear").value;
   var birthMonth = document.getElementById("birthMonth").value;
@@ -10,19 +7,18 @@ $(document).ready(function(){
   var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
 
-var birthDatenew = parseInt("birthDate");
+var birthDate = parseInt("birthDate");
 
-if (birthDatenew > 31 || birthDateno < 0){
+if (birthDate> 31 || birthDate < 0){
   console.log("Invalid date please re-enter");
 }
 
-var birthMonthnew = parseInt("birthMonth");
+var birthMonth = parseInt("birthMonth");
 
-if (birthMonthnew > 12 || birthMonthnew <0){
+if (birthMonth > 12 || birthMonth <0){
   console.log("Invalid month please re-enter")
 }
-
-var firstDeterminant = 
+}
 
 
 
