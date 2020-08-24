@@ -10,11 +10,19 @@ $(document).ready(function(){
   var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
 
-var birthDateno = parseInt("birthDate");
+var birthDatenew = parseInt("birthDate");
 
-if (birthDateno > 31 || birthDateno < 0){
+if (birthDatenew > 31 || birthDateno < 0){
   console.log("Invalid date please re-enter");
 }
+
+var birthMonthnew = parseInt("birthMonth");
+
+if (birthMonthnew > 12 || birthMonthnew <0){
+  console.log("Invalid month please re-enter")
+}
+
+var firstDeterminant = 
 
 
 
