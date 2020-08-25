@@ -7,7 +7,12 @@ function akan(){
   var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
 
-var birthDate = parseInt("birthDate");
+var birthDate = parseInt("birthDate")
+
+var birthYear = parseInt("birthYear")
+
+var birthMonth = parseInt("birthMonth")
+
 
 if (birthDate> 31 || birthDate < 0){
   console.log("Invalid date please re-enter");
