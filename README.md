@@ -1,5 +1,5 @@
 # AkanName Generator
-#### The geerator will allow Ghanain nationals calculate their exact day of the week when they were born,{The version was updated in 21st August 2020}
+#### The generator will allow Ghanain nationals calculate their exact day of the week when they were born,{The version was updated in 21st August 2020}
 #### By Anthony Chela
 ## Description 
 MyAge is an application used to calculate the exact day of birth of Ghanains based on their culture of naming
