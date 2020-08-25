@@ -21,5 +21,5 @@
     alert ( "Invalid month. please re-neter the month of birth");
   }
 // to store 
-  }
+}
 
