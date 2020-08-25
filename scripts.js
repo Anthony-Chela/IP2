@@ -12,7 +12,14 @@
 	      var female = document.getElementById("gender");
   // to validate month and date 
 
-  if (date < 0 || > 32) {
-    alert ( "Invalid date. please re-enter the date of birth" )
+  if (date < 0 || date > 32) {
+    alert ( "Invalid date. please re-enter the date of birth" );
   } 
-  
+// to validate month 
+
+  if (month <0 || month > 12){
+    alert ( "Invalid month. please re-neter the month of birth");
+  }
+// to store 
+  }
+
